@@ -1,6 +1,12 @@
 package dsa.basics;
 
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
+import java.util.stream.Collector;
+import java.util.stream.Stream;
 
 public class DecimalToBinary {
 	
@@ -34,6 +40,12 @@ public class DecimalToBinary {
 			else
 				binary += "0";
 		}
+		binary.length();
+		String[] arr = {"123", "4445", "kdfjkj", "kd", "kdkdjkdjkd"};
+		Collections.sort(Arrays.asList(arr), Comparator.comparingInt(String :: length).reversed());
+		for(String val : arr)
+			System.out.println(val);
+//		Stream.of(arr).sorted(Comparator.comparingInt(String :: length).reversed());
 		System.out.println(binary);
 	}
 
