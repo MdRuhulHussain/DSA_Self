@@ -1,6 +1,7 @@
 package dsa.basics;
 
-/*In Bubble sort, we will iterate for multiple rounds i.e (n-1)rounds to carry the max value among 0th index to 
+/* Explaination of how bubble sort works
+ * In Bubble sort, we will iterate for multiple rounds i.e (n-1)rounds to carry the max value among 0th index to 
  * (nth-round)index elements to the last. which means if sorting an array of 5 elements, the first round will 
  * compare elements from 0 index to 4 index (i.e all elements) and the max among them will be sent to last index
  * of the array and so on.
@@ -32,7 +33,6 @@ public class BubbleSort {
 	public static int[] bubbleSortRecursion(int[] arr, int round, int n) {
 		if(round==n)
 			return arr;
-		System.out.println("printing iteration "+round);
 		int temp;
 		boolean swapped = false;
 		for(int j=0;j<n-round;j++) {
@@ -54,7 +54,6 @@ public class BubbleSort {
 		int n = arr.length;
 		int temp;
 		for(int round=1;round<n;round++) {
-			System.out.println("printing iteration "+round);
 			boolean swapped = false;
 			for(int j=0;j<n-round;j++) {
 				if(arr[j]>arr[j+1]) {
