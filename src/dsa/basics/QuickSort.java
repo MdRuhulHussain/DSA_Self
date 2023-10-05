@@ -12,6 +12,7 @@ public class QuickSort {
 			System.out.print(num+" ");
 	}
 	
+	//Recursion function for QuickSort, calling the partition function for every recursion call
 	public static void quickSort(int[] arr, int start, int end) {
 		if( start >= end)
 			return;
@@ -22,6 +23,9 @@ public class QuickSort {
 		quickSort(arr, pivotIndex+1, end);
 	}
 	
+	//partition function is doing the business logic to place the pivot element at its correct position
+	//and then we need to ensure that all the left elements of pivot is smaller than pivot and all the
+	//right side elements of pivot is greater than pivot, if not we will swap them.
 	public static int partition(int[] arr, int start, int end) {
 		
 		int pivot = arr[start];
