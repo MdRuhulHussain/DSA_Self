@@ -66,7 +66,7 @@ public class BubbleSort {
 			}
 			if(!swapped)
 				break;
-				//array sorted
+				//found that no swapped were done, which means array is sorted completely
 		}
 		return arr;
 	}
