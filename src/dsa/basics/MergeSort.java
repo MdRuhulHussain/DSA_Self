@@ -53,11 +53,12 @@ public class MergeSort {
 	
 	public static void mergeSortRecursion(int[] arr, int start, int end) {
 		
+		System.out.println("Hi");
 		if(start>=end)
 			return;
 		int mid = (start+end)/2;
 		
-		System.out.println("Hi");
+		
 		mergeSortRecursion(arr, start, mid);
 		System.out.println("Hi");
 		mergeSortRecursion(arr, mid+1, end);
