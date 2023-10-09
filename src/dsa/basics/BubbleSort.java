@@ -1,6 +1,6 @@
 package dsa.basics;
 
-/* Explaination of how bubble sort works
+/* Illustration of how bubble sort works
  * In Bubble sort, we will iterate for multiple rounds i.e (n-1)rounds to carry the max value among 0th index to 
  * (nth-round)index elements to the last. which means if sorting an array of 5 elements, the first round will 
  * compare elements from 0 index to 4 index (i.e all elements) and the max among them will be sent to last index
