@@ -1,6 +1,9 @@
 package dsa.basics;
 
+
+//dividing the array into each individual elements and then comparing elements and merging
 public class MergeSort {
+	
 	
 	public static void merge(int[] arr, int s, int e) {
 		
