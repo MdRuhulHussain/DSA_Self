@@ -1,5 +1,10 @@
 package dsa.basics;
 
+/*
+ * Selection sort is a simple and efficient sorting algorithm that works by 
+ * repeatedly selecting the smallest (or largest) element from the unsorted 
+ * portion of the array and moving it to the sorted portion of the array. 
+ */
 public class SelectionSort {
 	
 	public static void main(String args[]) {
