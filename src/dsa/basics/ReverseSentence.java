@@ -1,9 +1,12 @@
 package dsa.basics;
 
+/*
+ * Reverse the sentence keeping each words correctly but in reverse order
+ */
 public class ReverseSentence {
 	
 	public static void main(String args[]) {
-		String sentence = "Reverse the string keeping the words in the same order";
+		String sentence = "Reverse the string keeping the words correct but in the reverse order";
 		System.out.println("printing the result from split method \n"+reverseSentenceUsingSplit(sentence));
 		System.out.println("printing the result from manual approach method \n"+reverseSentence(sentence));
 	}
