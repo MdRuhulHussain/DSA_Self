@@ -1,5 +1,9 @@
 package dsa.basics;
 
+/* Following two approaches to reverse a string
+ * 1. Using Recursion
+ * 2. Using Loop
+ */
 public class ReverseString {
 	
 	public static void main(String args[]) {
