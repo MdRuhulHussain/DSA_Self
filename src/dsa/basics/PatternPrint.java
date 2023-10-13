@@ -2,6 +2,11 @@ package dsa.basics;
 
 import java.util.Scanner;
 
+
+/*
+ * Printing the various patterns. The shape to print is shown in comment before
+ * its business logic to print the pattern
+ */
 public class PatternPrint {
 	
 	public static void main(String args[]) {
