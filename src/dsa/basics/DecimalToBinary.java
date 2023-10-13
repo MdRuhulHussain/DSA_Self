@@ -8,6 +8,11 @@ import java.util.Scanner;
 import java.util.stream.Collector;
 import java.util.stream.Stream;
 
+/*
+ * Converting decimal numbers into binary number, answers in two approaches
+ * 1. Using Remainder (basic approach)
+ * 2. Using Bitwise Operator (Optimized)
+ */
 public class DecimalToBinary {
 	
 	public static void main(String args[]) {
@@ -41,10 +46,10 @@ public class DecimalToBinary {
 				binary += "0";
 		}
 		binary.length();
-		String[] arr = {"123", "4445", "kdfjkj", "kd", "kdkdjkdjkd"};
-		Collections.sort(Arrays.asList(arr), Comparator.comparingInt(String :: length).reversed());
-		for(String val : arr)
-			System.out.println(val);
+//		String[] arr = {"123", "4445", "kdfjkj", "kd", "kdkdjkdjkd"};
+//		Collections.sort(Arrays.asList(arr), Comparator.comparingInt(String :: length).reversed());
+//		for(String val : arr)
+//			System.out.println(val);
 //		Stream.of(arr).sorted(Comparator.comparingInt(String :: length).reversed());
 		System.out.println(binary);
 	}
