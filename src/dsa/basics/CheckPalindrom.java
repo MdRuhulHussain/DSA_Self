@@ -2,6 +2,9 @@ package dsa.basics;
 
 public class CheckPalindrom {
 	
+	/*
+	 * Program to check if given string is palindrom or not.
+	 */
 	public static void main(String args[]) {
 		String str = "abcdefghiihgfedcba";
 		
