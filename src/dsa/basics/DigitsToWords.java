@@ -2,7 +2,9 @@ package dsa.basics;
 
 import java.util.Scanner;
 
-
+/*
+ * Program to convert decimal number into words
+ */
 public class DigitsToWords {
 	
 	public static void main(String args[]) {
