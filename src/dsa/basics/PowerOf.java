@@ -3,14 +3,17 @@ package dsa.basics;
 import java.util.ArrayList;
 import java.util.List;
 
+/*find the value of a power b i.e a^b
+*instead of going with the normal approach where we can multiply a, b times which would be of O(n) complexity
+*we are using the formula - a^b => a^b/2 * a^b/2 when b is even and a*a^b/2*a^b/2 when b is odd
+*so, 2^1024 => (2^512)^2 , and then 2^512 => (2^256)^2 ...so on, which will go for 11 iterations only
+*instead of 1024 iterations unlike normal way
+*/
+
 public class PowerOf {
 
 	public static void main(String args[]) {
-		//find the value of a power b i.e a^b
-		//instead of going with the normal approach where we can multiply a, b times which would be of O(n) complexity
-		//we are using the formula - a^b => a^b/2 * a^b/2 when b is even and a*a^b/2*a^b/2 when b is odd
-		//so, 2^1024 => (2^512)^2 , and then 2^512 => (2^256)^2 ...so on, which will go for 11 iterations only
-		//instead of 1024 iterations unlike normal way
+		
 		System.out.println(powerUsingRecursion(2,39));
 		
 		System.out.println(powerUsingLoop(2,39));
