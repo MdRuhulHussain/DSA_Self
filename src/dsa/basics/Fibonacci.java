@@ -2,6 +2,9 @@ package dsa.basics;
 
 import java.util.Scanner;
 
+/*
+ * Program to print nth element of fibonacci series - 0,1,1,2,3,5,8,13
+ */
 public class Fibonacci {
 	
 	public static void main(String args[]) {
