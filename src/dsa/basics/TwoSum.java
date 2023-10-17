@@ -3,9 +3,12 @@ package dsa.basics;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * program returning the positions of two numbers summing to the given target from
+ * the given array 
+ */
 public class TwoSum {
 
-	//program returning the positions of two numbers summing to the given target from the given array 
 	public static void main(String args[]) {
 		
 		int[] numbers = {4,9,8,3,7,5};
