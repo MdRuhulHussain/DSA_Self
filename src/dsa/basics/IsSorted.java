@@ -1,5 +1,11 @@
 package dsa.basics;
 
+
+/*
+ * Check if given array is sorted or not
+ * 1. Using Recursion
+ * 2. Using Loop
+ */
 public class IsSorted {
 	
 	public static void main(String args[]) {
