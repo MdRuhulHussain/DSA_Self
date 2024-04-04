@@ -17,7 +17,7 @@ public class HourGlassSum {
 //			}
 //		}
 		
-		//Uncomment above code to take inputs from user, otherwise use below inputs
+		//Uncomment above code to take inputs from user and comment the below array initialization, otherwise use below inputs
 		int[][] arr = 
 			 {{-9,-9,-9,1,1,1}
 			 ,{0,-9,0,4,3,2}
